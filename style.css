@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.option {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.option:hover {
+  background-color: #f0f0f0;
+}
